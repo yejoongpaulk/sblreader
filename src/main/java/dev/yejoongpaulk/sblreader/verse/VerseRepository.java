@@ -8,12 +8,20 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface VerseRepository extends JpaRepository<Verse, Long> {
     /**
-     * Find a NT book's content by book and chapter.
+     * Find a NT book's verse by book, chapter, and verse.
      * @param book
      * @param chapter
+     * @param verseNumber
+     * @return the sequential id corresponding to the book, chapter, and verse.
+     */
+    public VerseView findByBookAndChapterAndVerseNumber(String book, int chapter, int verseNumber);
+
+    /**
+     * Obtain the maximum chapter by book (i.e. Matt -> 28, Mark -> 16, etc.).
+     * @param book
      * @return
      */
-    public List<Verse> findByBookAndChapter(String book, int chapter);
+    public VerseView findTopChapterByBookOrderByChapterDesc(String book);
 
     /**
      * Find all verses between two verse primary key ids.
