@@ -4,6 +4,10 @@
 
 The goal of this project is to create a React-based "focused reader" for the SBL GNT, allowing users to select and read up to 250 verses simultaneously from the SBL GNT.
 
+## Database Setup
+
+The hard-coded "application.properties" file is configured for an H2 in-memory database, meant primarily for debugging. This is NOT the database configuration that will be hosted in production.
+
 ## Sources
 
 The following copyright notice is provided per the terms of the CC BY 4.0 licensing to indicate source:
@@ -24,9 +28,7 @@ See SBLGNT.com for license details:
 https://www.sblgnt.com/license/
 
 
-The SBL GNT is licensed under the
-Creative Commons Attribution 4.0 International Public License
-(CC BY 4.0):
+The SBL GNT is licensed under the Creative Commons Attribution 4.0 International Public License (CC BY 4.0):
 
 https://creativecommons.org/licenses/by/4.0/
 
