@@ -97,6 +97,33 @@
 					</excludes>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>com.github.eirslett</groupId>
+				<artifactId>frontend-maven-plugin</artifactId>
+				<!-- Use the latest released version:
+				https://repo1.maven.org/maven2/com/github/eirslett/frontend-maven-plugin/ -->
+				<version>2.0.0</version>
+				<executions>
+					<execution>
+						<!-- optional: you don't really need execution ids, but it looks nice in your build log. -->
+						<id>install node and npm</id>
+						<goals>
+							<goal>install-node-and-npm</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<nodeVersion>v24.13.1</nodeVersion>
+
+					<!-- optional: with node version greater than 4.0.0 will use npm provided by node distribution -->
+					<npmVersion>11.8.0</npmVersion>
+
+					<workingDirectory>src/main/frontend</workingDirectory>
+					<installDirectory>target</installDirectory>
+
+					<!-- optional: where to download node and npm from. Defaults to https://nodejs.org/dist/ -->
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 
