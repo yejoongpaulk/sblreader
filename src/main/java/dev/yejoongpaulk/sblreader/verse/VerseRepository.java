@@ -24,6 +24,14 @@ public interface VerseRepository extends JpaRepository<Verse, Long> {
     public VerseView findTopChapterByBookOrderByChapterDesc(String book);
 
     /**
+     * Obtain the maximum verse by book and chapter (i.e. Matt 1 -> 25).
+     * @param book
+     * @param chapter
+     * @return
+     */
+    public VerseView findTopVerseNumberByBookAndChapterOrderByVerseNumberDesc(String book, int chapter);
+
+    /**
      * Find all verses between two verse primary key ids.
      * By the way the ids are constructed, the ids are sequential,
      * meaning that you can select up to 250 verses per book.

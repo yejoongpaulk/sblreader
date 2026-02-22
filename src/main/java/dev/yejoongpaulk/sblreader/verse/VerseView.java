@@ -18,6 +18,12 @@ public interface VerseView {
     Long getChapter();
 
     /**
+     * Get verse number of the verse.
+     * @return
+     */
+    Long getVerseNumber();
+
+    /**
      * Get abbreviated book name that verse
      * belongs to.
      * @return
