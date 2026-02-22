@@ -8,6 +8,10 @@ The goal of this project is to create a React-based "focused reader" for the SBL
 
 The hard-coded "application.properties" file is configured for an H2 in-memory database, meant primarily for debugging. This is NOT the database configuration that will be hosted in production.
 
+## CORS Origin
+
+By default, cross-origin is allowed for development to allow different localhost ports. This will NOT be the case in production.
+
 ## Sources
 
 The following copyright notice is provided per the terms of the CC BY 4.0 licensing to indicate source:
