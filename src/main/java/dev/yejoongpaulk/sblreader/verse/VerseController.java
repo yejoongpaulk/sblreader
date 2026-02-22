@@ -58,7 +58,7 @@ public class VerseController {
      * @return
      */
     @GetMapping("/api/test")
-    public String index() {
+    public String test() {
         return "{\"status\": \"API is live!\"}";
     }
 
