@@ -4,6 +4,8 @@
 
 The goal of this project is to create a React-based "focused reader" for the SBL GNT, allowing users to select and read up to 250 verses simultaneously from the SBL GNT.
 
+Live Link: https://sblread.yejoongpaulk.dev
+
 ## Database Setup
 
 The hard-coded "application.properties" file is configured for an H2 in-memory database, meant primarily for debugging. This is NOT the database configuration that will be hosted in production.
