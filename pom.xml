@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>dev.yejoongpaulk</groupId>
 	<artifactId>sblreader</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>sblreader</name>
 	<description>Spring Boot and React web app that serves the SBL GNT text.</description>
 	<url/>
