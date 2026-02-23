@@ -22,20 +22,22 @@ Michael W. Holmes, General Editor
 Copyright 2010 Logos Bible Software and the Society of Biblical Literature
 ```
 
-GitHub repo that provided the .txt files for data processing into the data.sql file:
+* GitHub repo that provided the .txt files for data processing into the data.sql file: https://github.com/Faithlife/SBLGNT
+* See SBLGNT.com for license details: https://www.sblgnt.com/license/
+* The SBL GNT is licensed under the Creative Commons Attribution 4.0 International Public License (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+* The data processing repo that converted the .txt files to data.sql can be found here: https://github.com/yejoongpaulk/sblgnt-verse-extractor
 
-https://github.com/Faithlife/SBLGNT
+# Fonts
 
+GentiumPlus-Regular.ttf
+* **Source**: SIL International
+* **License**: SIL Open Font License v1.1 (OFL.txt)
+* **Download**: https://software.sil.org/gentium/
 
-See SBLGNT.com for license details:
+GalatiaSIL-Regular.ttf  
+* **Source**: SIL International
+* **License**: SIL Open Font License v1.1 (OFL.txt)
+* **Download**: https://software.sil.org/galatia/
 
-https://www.sblgnt.com/license/
+Both fonts are bundled under OFL terms for use in SBL GNT Reader.
 
-
-The SBL GNT is licensed under the Creative Commons Attribution 4.0 International Public License (CC BY 4.0):
-
-https://creativecommons.org/licenses/by/4.0/
-
-The data processing repo that converted the .txt files to data.sql can be found here:
-
-https://github.com/yejoongpaulk/sblgnt-verse-extractor
